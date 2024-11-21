@@ -1,6 +1,7 @@
 import "./App.css";
-import Card from './components/card.jsx'
-import Navbar from './components/navbar.jsx'
+import Card from "./components/card.jsx";
+import Carousel from "./components/carousel.jsx";
+import Navbar from "./components/navbar.jsx";
 function App() {
   return (
     <div className="App">
@@ -35,17 +36,110 @@ function App() {
           </div>
         </div>
         <div className="container">
-          <div className="grid-cols text-align-center">
-            <Card>
+          <Carousel>
+            <Card width={"20rem"} height={"30rem"}>
+              <div className="card-img">
+                <img src="/greenSalad.webp"></img>
+              </div>
+
+              <div>
+                <div className="flex card-header">
+                  <div>Green Salad</div>
+                  <div> $123</div>
+                </div>
+                <div className="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+              </div>
             </Card>
-            <Card>
+            <Card width={"20rem"} height={"30rem"}>
+              <div className="card-img">
+                <img src="/greenSalad.webp"></img>
+              </div>
+
+              <div>
+                <div className="flex card-header">
+                  <div>Green Salad</div>
+                  <div> $123</div>
+                </div>
+                <div className="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+              </div>
             </Card>
-            <Card>
+
+            <Card width={"20rem"} height={"30rem"}>
+              <div className="card-img">
+                <img src="/greenSalad.webp"></img>
+              </div>
+
+              <div>
+                <div className="flex card-header">
+                  <div>Green Salad</div>
+                  <div> $123</div>
+                </div>
+                <div className="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+              </div>
             </Card>
-          </div>
+          </Carousel>
         </div>
       </div>
-      <div>C</div>
+      <div className="section specials">
+        
+        <div className="container ">
+          <Carousel>
+            <Card width={"15rem"} height={"15rem"}>
+              <div>
+                <div className="flex card-header">
+                  <div>Green Salad</div>
+                  <div> $123</div>
+                </div>
+                <div className="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                </div>
+              </div>
+            </Card>
+            <Card width={"15rem"} height={"15rem"}>
+              <div>
+                <div className="flex card-header">
+                  <div>Green Salad</div>
+                  <div> $123</div>
+                </div>
+                <div className="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                </div>
+              </div>
+            </Card>
+            <Card width={"15rem"} height={"15rem"}>
+              <div>
+                <div className="flex card-header">
+                  <div>Green Salad</div>
+                  <div> $123</div>
+                </div>
+                <div className="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                </div>
+              </div>
+            </Card>
+            <Card width={"15rem"} height={"15rem"}>
+              <div>
+                <div className="flex card-header">
+                  <div>Green Salad</div>
+                  <div> $123</div>
+                </div>
+                <div className="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                </div>
+              </div>
+            </Card>
+          </Carousel>
+        </div>
+      </div>
       <div>D</div>
       <div>E</div>
     </div>

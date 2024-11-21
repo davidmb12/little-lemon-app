@@ -1,11 +1,18 @@
 import React from 'react'
 
-const Navbar = ({children}) => {
+const Navbar = ({ children }) => {
   return (
-    <div className="section navbar">
-        {children}
-    </div>
-    
+    <nav className="navbar">
+      <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>MENU</li>
+        <li>RESERVATIONS</li>
+        <li>ORDER ONLINE</li>
+        <li>LOGIN</li>
+      </ul>
+    </nav>
+
   )
 }
 
